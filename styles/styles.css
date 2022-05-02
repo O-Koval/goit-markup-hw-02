@@ -1,3 +1,54 @@
+:root {
+/*fonts */
+--main-font: 'Roboto', sans-serif;
+--secondary-font: 'Raleway', sans-serif;
+    /*text colors */
+--main-text-color: #757575;
+--secondary-text-color:#212121;
+--accent-color:#2196F3;
+--white-color:#FFFFFF;
+
+/*background colors */
+--main-background-color:#E5E5E5;
+--secondary-background-color: #F5F4FA;
+--borders-background-color:#2F303A;
+--portfolio-top-background-color:#FFFFFF;
+}
+
+
 body {
-    font-family: 
+    font-family: var(--main-font)
+}
+.logo {
+Font style: 700;
+Font size: 26px
+Line height: 1.19;
+Align: Left
+Vertical align: Top;
+Letter spacing: 3%;
+}
+.header-link {
+Font style: 500;
+Font size: 14px
+Line height: 1,14;
+color: current;
+}
+
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover, 
+.btn:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.logo,.header-link, .footer-link {
+    text-decoration: none;
+}
+
+.header-link, .footer-link:hover,
+.header-link, .footer-links:focus {
+    color: var(--accent-color);
 }
