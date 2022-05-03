@@ -9,7 +9,7 @@
 --white-color:#FFFFFF;
 
 /*background colors */
---main-background-color:#E5E5E5;
+--main-background-color:#FFFFFF;
 --secondary-background-color: #F5F4FA;
 --borders-background-color:#2F303A;
 --portfolio-top-background-color:#FFFFFF;
@@ -17,8 +17,10 @@
 
 
 body {
-    font-family: var(--main-font)
+    font-family: var(--main-font);
+    background-color: var(--main-background-color);
 }
+
 .logo {
 Font style: 700;
 Font size: 26px
@@ -43,12 +45,32 @@ color: current;
   background-color: var(--accent-color);
   color: var(--white-color);
 }
+.button-main {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    
+}
+.button-main:hover, .btn-main:focus {
+    background-color: #188CE8;
+}
 
-.logo,.header-link, .footer-link {
+.logo, .header-link, .footer-link {
     text-decoration: none;
 }
 
 .header-link, .footer-link:hover,
-.header-link, .footer-links:focus {
+.header-link, .footer-link:focus {
     color: var(--accent-color);
 }
+.address {
+    font-style: normal;
+}
+/* Header*/
+
+/*Site-nav*/
+
+/*Hero*/
+
+/*Section*/
+
+/*Button*/
