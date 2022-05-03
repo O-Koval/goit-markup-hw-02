@@ -1,25 +1,81 @@
 :root {
+/*background colors */
+--main-background-color: #FFFFFF;
+--secondary-background-color: #2F303A;
+--section-background-color: #F5F4FA;
+
+ /*text colors */
+ --main-text-color: #757575;
+ --secondary-text-color: #212121;
+ --accent-color:#2196F3;
+ --footer-color: rgba(255, 255, 255, 0.6);
+
 /*fonts */
 --main-font: 'Roboto', sans-serif;
 --secondary-font: 'Raleway', sans-serif;
-    /*text colors */
---main-text-color: #757575;
---secondary-text-color:#212121;
---accent-color:#2196F3;
---white-color:#FFFFFF;
-
-/*background colors */
---main-background-color:#FFFFFF;
---secondary-background-color: #F5F4FA;
---borders-background-color:#2F303A;
---portfolio-top-background-color:#FFFFFF;
 }
-
 
 body {
-    font-family: var(--main-font);
-    background-color: var(--main-background-color);
+       background-color: var(--main-background-color);
+       color: var(--main-text-color);
+       /* font-family: var(--main-font)*/
 }
+
+/*Site-nav*/
+.logo {
+    color: var(--secondary-text-color);
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+.link-nav {
+    color: var(--secondary-text-color);
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+.link-nav:hover, .link-nav:focus, .nav-contacts:hover, .nav-contacts:focus {
+    color: var(--accent-color);
+}
+.nav-contacts {
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+/*Hero*/
+.hero {
+    background-color: var(--secondary-background-color);
+}
+.hero-title {
+color: var(--main-background-color);
+font-family: var(--main-font);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 6%;
+}
+.hero-button {
+background-color: var(--accent-color);
+color: var(--main-background-color);
+font-family: var(--main-font);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.8;
+text-align: center;
+letter-spacing;: 6%
+}
+/*list-style:none*/
+
+/*Section*/
+
+/*Button*/
+
 
 .logo {
 Font style: 700;
@@ -65,12 +121,3 @@ color: current;
 .address {
     font-style: normal;
 }
-/* Header*/
-
-/*Site-nav*/
-
-/*Hero*/
-
-/*Section*/
-
-/*Button*/
