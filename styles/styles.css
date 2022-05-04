@@ -36,16 +36,21 @@ body {
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+
 }
 .link-nav:hover, .link-nav:focus, .nav-contacts:hover, .nav-contacts:focus {
     color: var(--accent-color);
 }
 .nav-contacts {
     color: var(--main-text-color);
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+}
+.list {
+    list-style: none;
 }
 /*Hero*/
 .hero {
@@ -70,9 +75,31 @@ line-height: 1.8;
 text-align: center;
 letter-spacing;: 6%
 }
-/*list-style:none*/
 
 /*Section*/
+.section-title {
+    font-family: var(--main-font);
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 3%;
+}
+.section-name {
+font-family: var(--main-font);
+color: var(--secondary-text-color);
+font-weight: 700;
+font-size: 14px;
+text-transform:uppercase;
+line-height: 1.14;
+text-align: left;
+letter-spacing: 3%;
+}
+.section-text {
+    font-family: var(--main-font)
+
+}
 
 /*Button*/
 
