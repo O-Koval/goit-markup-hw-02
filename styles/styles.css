@@ -9,6 +9,7 @@
  --secondary-text-color: #212121;
  --accent-color:#2196F3;
  --footer-color: rgba(255, 255, 255, 0.6);
+ --white-color:#ffffff;
 
 /*fonts */
 --main-font: 'Roboto', sans-serif;
@@ -23,12 +24,14 @@ body {
 
 /*Site-nav*/
 .logo {
-    color: var(--secondary-text-color);
+    color: var(--accent-color);
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
+
 .link-nav {
     color: var(--secondary-text-color);
     font-family: var(--main-font);
@@ -49,7 +52,7 @@ body {
     line-height: 1.14;
     text-decoration: none;
 }
-.list {
+.list, .nav-list {
     list-style: none;
 }
 /*Hero*/
@@ -67,13 +70,16 @@ letter-spacing: 6%;
 }
 .hero-button {
 background-color: var(--accent-color);
-color: var(--main-background-color);
+color: var(--white-color);
 font-family: var(--main-font);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.8;
 text-align: center;
-letter-spacing;: 6%
+letter-spacing: 6%;
+}
+.hero-button:hover, .here-button:focus {
+    background-color: #188CE8;
 }
 
 /*Section*/
@@ -97,54 +103,93 @@ text-align: left;
 letter-spacing: 3%;
 }
 .section-text {
-    font-family: var(--main-font)
-
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.7;text-align: left;
+    letter-spacing: 3%
+}
+.section-team {
+    background-color: var(--section-background-color);
+}
+.team-name {
+font-family: var(--main-font);
+color:var(--secondary-text-color);
+font-weight: 500;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 3%;
+}
+.team-text {
+    font-family: var(--main-font);
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 3%;
 }
 
-/*Button*/
+    /*Footer*/
 
-
-.logo {
-Font style: 700;
-Font size: 26px
-Line height: 1.19;
-Align: Left
-Vertical align: Top;
-Letter spacing: 3%;
-}
-.header-link {
-Font style: 500;
-Font size: 14px
-Line height: 1,14;
-color: current;
-}
-
-.btn {
-    font-family: inherit;
-    cursor: pointer;
-}
-.btn:hover, 
-.btn:focus {
-  background-color: var(--accent-color);
-  color: var(--white-color);
-}
-.button-main {
-    background-color: var(--accent-color);
+    .footer {
+        background-color: var(--secondary-background-color);
+    }
+.map-address {
+    font-family: var(--main-font);
     color: var(--white-color);
-    
-}
-.button-main:hover, .btn-main:focus {
-    background-color: #188CE8;
-}
-
-.logo, .header-link, .footer-link {
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+    letter-spacing: 3%;
     text-decoration: none;
 }
-
-.header-link, .footer-link:hover,
-.header-link, .footer-link:focus {
+.footer-contacts {
+    font-family: var(--main-font);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+    letter-spacing: 3%;
+    text-decoration: none;
+}
+ .footer-contacts:hover, .footer-contacts:focus {
     color: var(--accent-color);
 }
 .address {
     font-style: normal;
 }
+                   /*PORTFOLIO*/
+
+/*PF-button*/
+.button {
+    font-family: var(--main-font);
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 3%;
+    cursor: pointer;
+}
+.button:hover, .button:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+/*PF list*/
+.pf-name {
+    font-family: var(--main-font);
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 2;
+    text-align: left;
+    letter-spacing: 6%;
+}
+.pf-text {
+    font-family: var(--main-font);
+    line-height: 1.8;
+    text-align: left;
+    letter-spacing: 3%
+}
+.link-nav.current {
+    color:var(--accent-color)
+}
+
+
+
