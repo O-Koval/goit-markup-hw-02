@@ -85,6 +85,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 6%;
+  cursor: pointer;
 }
 
 .hero-button:hover,
