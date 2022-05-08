@@ -32,7 +32,13 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
+.top {
+  color:#000000;
+}
 
+.bottom {
+  color: #ffffff;
+}
 .link-nav {
   color: var(--secondary-text-color);
   font-family: var(--main-font);
