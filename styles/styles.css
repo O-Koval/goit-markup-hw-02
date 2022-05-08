@@ -20,7 +20,7 @@ body {
   background-color: var(--main-background-color);
   color: var(--main-text-color);
   font-family: var(--main-font);
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 /*Site-nav*/
@@ -80,7 +80,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 
 .hero-button {
@@ -90,7 +90,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
   cursor: pointer;
 }
 
@@ -116,14 +116,12 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   line-height: 1.14;
-  text-align: left;
 }
 
 .section-text {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.7;
-  text-align: left;
 }
 
 .section-team {
@@ -160,7 +158,6 @@ body {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.7;
-  text-align: left;
   text-decoration: none;
 }
 .footer-contacts:hover,
@@ -192,13 +189,11 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 2;
-  text-align: left;
-  letter-spacing: 6%;
+  letter-spacing: 0.06em;
 }
 .pf-text {
   font-family: var(--main-font);
   line-height: 1.8;
-  text-align: left;
 }
 .link-nav.current {
   color: var(--accent-color);
