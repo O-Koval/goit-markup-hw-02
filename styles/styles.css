@@ -24,6 +24,15 @@ body {
 }
 
 /*Site-nav*/
+
+.container {
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+}
+
 .logo {
   color: var(--accent-color);
   font-family: var(--secondary-font);
@@ -31,6 +40,9 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  display: inline-block;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 .top {
   color:#000000;
@@ -66,11 +78,14 @@ body {
 .list,
 .nav-list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /*Hero*/
 .hero {
   background-color: var(--secondary-background-color);
+  text-align: center;
 }
 
 .hero-title {
@@ -78,9 +93,12 @@ body {
   font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
+  text-transform: uppercase;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -92,6 +110,11 @@ body {
   line-height: 1.8;
   letter-spacing: 0.06em;
   cursor: pointer;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border-color: transparent;
+  margin-bottom: 200px;
+  
 }
 
 .hero-button:hover,
@@ -100,6 +123,11 @@ body {
 }
 
 /*Section*/
+
+img {
+  display: block;
+}
+
 .section-title {
   font-family: var(--main-font);
   color: var(--secondary-text-color);
@@ -107,6 +135,24 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.section-title.hidden {
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    margin: -1px; 
+    border: 0; 
+    padding: 0; 
+    white-space: nowrap; 
+    clip-path: inset(100%); 
+    clip: rect(0 0 0 0); 
+    overflow: hidden; 
+}
+.section-team img {
+margin-bottom: 30px;
 }
 
 .section-name {
@@ -116,12 +162,16 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   line-height: 1.14;
+  margin-top: 94px;
+  margin-bottom: 10px;
 }
 
 .section-text {
   font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 94px;
 }
 
 .section-team {
@@ -133,16 +183,25 @@ body {
   color: var(--secondary-text-color);
   font-weight: 500;
   line-height: 1.18;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .team-text {
   font-family: var(--main-font);
   line-height: 1.18;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 /*Footer*/
 .footer {
   background-color: var(--secondary-background-color);
+}
+
+footer >.logo {
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .map-address {
@@ -151,6 +210,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
+  margin-bottom: 9px;
 }
 
 .footer-contacts {
@@ -159,7 +219,14 @@ body {
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
+  margin-bottom: 9px;
 }
+
+.footer-contacts.last {
+  margin-bottom: 60px;
+  display: inline-block;
+}
+
 .footer-contacts:hover,
 .footer-contacts:focus {
   color: var(--accent-color);
@@ -167,7 +234,7 @@ body {
 .address {
   font-style: normal;
 }
-                                    /*PORTFOLIO*/
+===================/*PORTFOLIO*/============
 /*PF-button*/
 .button {
   font-family: var(--main-font);
@@ -182,6 +249,19 @@ body {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
+.pf-title {
+  position: absolute; 
+  width: 1px; 
+  height: 1px; 
+  margin: -1px; 
+  border: 0; 
+  padding: 0; 
+  white-space: nowrap; 
+  clip-path: inset(100%); 
+  clip: rect(0 0 0 0); 
+  overflow: hidden; 
+}
+
 /*PF list*/
 .pf-name {
   font-family: var(--main-font);
