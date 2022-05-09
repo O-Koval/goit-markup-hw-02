@@ -25,12 +25,13 @@ body {
 
 /*Site-nav*/
 
-.container {
-width: 1200px;
-padding-left: 15px;
-padding-right: 15px;
-margin-left: auto;
-margin-right: auto;
+.container,
+.list.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
@@ -45,12 +46,14 @@ margin-right: auto;
   margin-bottom: 25px;
 }
 .top {
-  color:#000000;
+  color: #000000;
 }
 
 .bottom {
   color: #ffffff;
 }
+
+
 .link-nav {
   color: var(--secondary-text-color);
   font-family: var(--main-font);
@@ -114,7 +117,6 @@ margin-right: auto;
   border-radius: 4px;
   border-color: transparent;
   margin-bottom: 200px;
-  
 }
 
 .hero-button:hover,
@@ -140,19 +142,19 @@ img {
 }
 
 .section-title.hidden {
-    position: absolute; 
-    width: 1px; 
-    height: 1px; 
-    margin: -1px; 
-    border: 0; 
-    padding: 0; 
-    white-space: nowrap; 
-    clip-path: inset(100%); 
-    clip: rect(0 0 0 0); 
-    overflow: hidden; 
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .section-team img {
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .section-name {
@@ -199,7 +201,7 @@ margin-bottom: 30px;
   background-color: var(--secondary-background-color);
 }
 
-footer >.logo {
+footer .logo {
   margin-top: 60px;
   margin-bottom: 20px;
 }
@@ -234,8 +236,13 @@ footer >.logo {
 .address {
   font-style: normal;
 }
-===================/*PORTFOLIO*/============
+/*PORTFOLIO*/
+
 /*PF-button*/
+
+.header-pf {
+  margin-bottom: 94px;
+}
 .button {
   font-family: var(--main-font);
   color: var(--secondary-text-color);
@@ -243,26 +250,36 @@ footer >.logo {
   line-height: 1.62;
   text-align: center;
   cursor: pointer;
+  padding: 6px 22px;
+  border-radius: 4px;
+  border-color: transparent;
 }
+
 .button:hover,
 .button:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
+
 .pf-title {
-  position: absolute; 
-  width: 1px; 
-  height: 1px; 
-  margin: -1px; 
-  border: 0; 
-  padding: 0; 
-  white-space: nowrap; 
-  clip-path: inset(100%); 
-  clip: rect(0 0 0 0); 
-  overflow: hidden; 
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /*PF list*/
+
+.container img {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
 .pf-name {
   font-family: var(--main-font);
   color: var(--secondary-text-color);
@@ -270,11 +287,17 @@ footer >.logo {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-top: 0;
+  margin-bottom: 4px;
 }
+
 .pf-text {
   font-family: var(--main-font);
   line-height: 1.8;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .link-nav.current {
   color: var(--accent-color);
 }
+ 
