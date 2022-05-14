@@ -18,7 +18,7 @@
   </head>
   <body>
     <header>
-      <div class="container">
+      <div class="header">
       <nav>
         <a class="logo" href="">Web<span class="top">Studio</span></a>
         <ul class="nav-list">
@@ -27,26 +27,26 @@
           <li><a class="link-nav" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="list">
-        <li><a class="nav-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="nav-contacts" href="tel:+380961111111">+38 (096) 111-11-11</a></li>
+      <ul class="list contacts">
+        <li class="item"><a class="nav-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="item"><a class="nav-contacts" href="tel:+380961111111">+38 (096) 111-11-11</a></li>
       </ul>
     </div>
     </header>
 
     <main>
       <!--Герой-->
+      <div class="hero-test">
       <section class="hero">
         <h1 class="hero-title">Эффективные решения <br />для вашего бизнеса</h1>
         <button class="hero-button" type="button">Заказать услугу</button>
       </section>
-
+    </div>
 
       <!--Как мы работаем-->
-      <div class="container">
-      <section class="section">
+      <section class="section about">
         <h2 class="section-title hidden">Как мы работаем</h2>
-        <ul class="list">
+        <ul class="list about">
           <li>
             <h3 class="section-name">Внимание к деталям</h3>
             <p class="section-text">
@@ -70,14 +70,12 @@
           </li>
         </ul>
       </section>
-      </div>
 
       <!--Чем мы занимаемся-->
-      <div class="container">
-      <section>
+      <section class="section activities">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
+        <ul class="list activities">
+          <li class="descript">
             <img
               src="./images/activities/typing.jpg"
               alt="Печатает на клавиатуре"
@@ -85,7 +83,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="descript">
             <img
               src="./images/activities/searching.jpg"
               alt="Использует ноутбук и телефон"
@@ -93,7 +91,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="descript">
             <img
               src="./images/activities/editing.jpg"
               alt="Выбирает из цветовой гаммы"
@@ -103,38 +101,39 @@
           </li>
         </ul>
       </section>
-    </div>
 
       <!--Наша команда-->
-      <div class="container">
-      <section class="section-team">
+      <div class="test">
+      <section class="section team">
         <h2 class="section-title">Наша команда</h2>
-        <ul class="list">
-          <li>
-            <img src="./images/team/ihor.jpg" alt="Игорь Демьяненко" width="270" height="260" />
+        <ul class="list team">
+          <li class="person">
+            <img class="photo" src="./images/team/ihor.jpg" alt="Игорь Демьяненко" width="270" height="260" />
             <h3 class="team-name">Игорь Демьяненко</h3>
             <p class="team-text">Product Designer</p>
           </li>
-          <li>
-            <img src="./images/team/olga.jpg" alt="Ольга Репина" width="270" height="260"/>
+          <li class="person">
+            <img class="photo" src="./images/team/olga.jpg" alt="Ольга Репина" width="270" height="260"/>
             <h3 class="team-name">Ольга Репина</h3>
             <p class="team-text">Frontend Developer</p>
           </li>
-          <li>
-            <img src="./images/team/mykolai.jpg" alt="Николай Тарасов" width="270" height="260" />
+          <li class="person">
+            <img class="photo" src="./images/team/mykolai.jpg" alt="Николай Тарасов" width="270" height="260" />
             <h3 class="team-name">Николай Тарасов</h3>
             <p class="team-text">Marketing</p>
           </li>
-          <li>
-            <img src="./images/team/mykhail.jpg" alt="Михаил Ермаков" width="270" height="260" />
+          <li class="person">
+            <img class="photo" src="./images/team/mykhail.jpg" alt="Михаил Ермаков" width="270" height="260" />
             <h3 class="team-name">Михаил Ермаков</h3>
             <p class="team-text">UI Designer</p>
           </li>
         </ul>
       </section>
     </div>
+
     </main>
     <!--Футер-->
+    <div class="footer-test">
     <footer class="footer">
       <div class="container">
       <a class="logo" href="">Web<span class="bottom">Studio</span></a>
@@ -149,5 +148,6 @@
       </div>
       </address>
     </footer>
+  </div>
   </body>
 </html>
